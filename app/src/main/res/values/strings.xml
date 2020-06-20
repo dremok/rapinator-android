@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AI Rapper</string>
+    <string name="app_title">AI Rapper</string>
+    <string name="rapper_input_hint">Name of a rapper…</string>
+    <string name="btn_text">Generate fresh rap lyrics!</string>
+    <string name="headline">Generate lyrics in the style of your favorite rapper!</string>
+    <string name="placeholder">Placeholder</string>
+    <string name="generating_text_wait_msg">Generating fresh rap lyrics in the style of %s. Please wait…</string>
+</resources>
