@@ -5,5 +5,8 @@
     <string name="btn_text">Generate fresh rap lyrics!</string>
     <string name="headline">Generate lyrics in the style of your favorite rapper!</string>
     <string name="placeholder">Placeholder</string>
-    <string name="generating_text_wait_msg">Generating fresh rap lyrics in the style of %s. Please wait…</string>
+    <string name="generating_text_wait_msg">Generating fresh rap lyrics in the style of %s, using state-of-the-art Deep Learning. Please wait…</string>
+    <string name="model_api_error_msg">Something is not right. Please try again later.</string>
+    <string name="artist_name">Artist: %s</string>
+    <string name="start_app">Start app</string>
 </resources>
