@@ -68,7 +68,7 @@
         android:layout_centerInParent="true"
         android:layout_marginBottom="35dp"
         app:adSize="BANNER"
-        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        app:adUnitId="ca-app-pub-5384360475282906/2119235680"
         app:layout_constraintBottom_toTopOf="@+id/editTextArtistName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.4"

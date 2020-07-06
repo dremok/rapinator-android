@@ -14,7 +14,7 @@ private val mAppUnitId: String by lazy {
     "ca-app-pub-5384360475282906~2655897082"
 }
 private val mInterstitialAdUnitId: String by lazy {
-    "ca-app-pub-3940256099942544/1033173712"
+    "ca-app-pub-5384360475282906/3787540571"
 }
 private lateinit var mInterstitialAd: InterstitialAd
 // END OF AdMob stuff
