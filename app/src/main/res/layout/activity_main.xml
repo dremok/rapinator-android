@@ -9,6 +9,7 @@
 
     <ImageView
         android:id="@+id/imageView"
+        android:src="@drawable/splash"
         android:layout_width="317dp"
         android:layout_height="583dp"
         android:background="@color/black"
@@ -16,10 +17,22 @@
         android:contentDescription="@string/start_app"
         android:focusable="true"
         android:onClick="startTextGenerator"
-        android:src="@drawable/splash"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="129dp"
+        android:layout_height="75dp"
+        android:src="@drawable/explicit"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.701"
+        android:contentDescription="Parental advisory" />
 </androidx.constraintlayout.widget.ConstraintLayout>

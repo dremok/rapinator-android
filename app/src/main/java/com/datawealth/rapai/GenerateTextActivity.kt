@@ -1,6 +1,7 @@
 package com.datawealth.rapai
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.AsyncTask
 import android.os.Bundle
 import android.text.method.ScrollingMovementMethod
@@ -11,13 +12,12 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.beust.klaxon.Klaxon
 import java.io.IOException
-import java.lang.RuntimeException
 import java.net.URL
 
 // Dev API
-private const val API_URL = "http://13.48.138.44:8003"
+//private const val API_URL = "http://13.48.138.44:8003"
 // Live API
-//private const val API_URL = "http://13.49.79.162:8003"
+private const val API_URL = "http://13.49.79.162:8003"
 
 private const val TAG = "GenerateTextActivity"
 
@@ -86,5 +86,14 @@ class GenerateTextActivity : AppCompatActivity() {
         )
         modelAPICaller.execute(artistName)
 
+    }
+
+    override fun onBackPressed() {
+        startActivity(Intent(this@GenerateTextActivity, TextGeneratorActivity::class.java))
+    }
+
+    fun startOver(view: View) {
+        val intent = Intent(this, TextGeneratorActivity::class.java).apply {}
+        startActivity(intent)
     }
 }

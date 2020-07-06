@@ -36,7 +36,7 @@
 
     <TextView
         android:id="@+id/textViewTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginLeft="56dp"
@@ -44,6 +44,10 @@
         android:text="Generating song title..."
         android:textSize="24sp"
         android:textIsSelectable="true"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:maxLines="2"
+        android:scrollHorizontally="false"
         app:layout_constraintBottom_toTopOf="@+id/textViewGeneratedLyrics"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -53,6 +57,9 @@
         android:layout_height="44dp"
         android:layout_marginTop="88dp"
         android:text="Start over"
+        android:onClick="startOver"
+        android:clickable="true"
+        android:focusable="true"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
